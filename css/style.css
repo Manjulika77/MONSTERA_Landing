@@ -1,0 +1,147 @@
+*{
+    border: 0;
+    margin: 0;
+}
+body{
+    font-family:"Allerta", sans-serif ;
+    overflow-x: hidden;
+    background-color: #f4f3f8;
+    height: 100vh;
+    width: 100vw;
+}
+#navbarMonstera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+}
+#navFirst{
+    display: flex;
+    flex-direction: row;
+    margin: 40px 50px;
+    width: 10vw;
+}
+#navMid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70vw;
+    margin: 40px 50px;
+    line-height: 30px;
+    font-size: 20px;
+}
+#navMid>div>h4{
+    text-decoration: none;
+    cursor: pointer;
+}
+#navMid>div>h4:hover{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+#navEnd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 40px 50px;
+    width: 20vw;
+}
+#midWhole{
+    display: flex;
+    flex-direction: row;
+}
+#midWholePart11{
+    position: relative;
+    top: 100px;
+    margin-left: 40px;
+}
+#midWholePart11 div ul li{
+    font-size: 25px;
+    /* display: inline; */
+}
+h1#monstera{
+    font-size: 125px;
+    font-weight: 900;
+    position: relative;
+    top: 26px;
+    margin: 0;
+    line-height: 140px;
+    /* font-family: "Abel", sans-serif; */
+}
+#midWholePart11 div ul li::marker{
+    font-size: 35px;
+    list-style-position: outside;
+}
+#midWholePart11 div ul li:nth-child(3)::marker {
+    line-height: 60px;
+}
+#midWholePart11 div ul li:nth-child(4)::marker {
+    line-height: 25px;
+}
+#midWholePart11 div ul li:nth-child(3){
+    font-weight: 400;
+    font-family: "Abel";
+    width: 600px;
+}
+#midWholePart11 div ul li:nth-child(4){
+    font-weight: 400;
+    font-family: "Abel";
+    width: 600px;
+}
+#midWholePart121{
+    position: relative;
+    top: 150px;
+}
+#midWholePart121{
+    margin-left: 40px;
+}
+#midWholePart121>div:first-child{
+    margin-left: 40px;
+    background-color: #466d50;
+    color: #fff;
+    font-weight: 100;
+    width: 12rem;
+    text-align: left;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
+#midWholePart121>div>h1{
+   font-family: "Abel", sans-serif;
+   font-size: 32px;
+   font-weight: 200;
+   margin-left: 15px;
+}
+#midWholePart122>img{
+    position: absolute;
+    top: 20px;
+    left: 203px;
+    width: 12px;
+}
+#midWholePart13{
+    position: relative;
+    top: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60vw;
+    line-height: 30px;
+    margin-left: 40px;
+}
+.midWholePart13Parts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 20vw;
+}
+.midWholePart13Parts div:nth-child(2){
+    margin-left: 5px;
+}
+p.text{
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 100;
+    width: 200px;
+}
+#imgMain{
+    width: 40vw;
+}
